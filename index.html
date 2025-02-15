@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>RudraStar Impex</title>
+  <!-- Link to Google Fonts for Poppins font -->
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+  <!-- CSS Styles -->
+  <style>
+    /* General Reset */
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    /* Body and Font Style */
+    body {
+        font-family: 'Poppins','Poppins','Poppins';
+      background-color: #f4f4f4;
+      color: #333;
+      text-align: center;
+      padding: 20px;
+    }
+
+    /* Header and Company Info */
+    .header {
+      margin-bottom: 20px;
+    }
+
+    .logo {
+      font-size: 3rem;
+      font-weight: 600;
+      color: #000;
+      margin-bottom: 10px;
+    }
+
+    .company-name {
+      font-size: 1.5rem;
+      font-weight: 400;
+      color: #555;
+    }
+
+    h1 {
+      font-size: 2rem;
+      font-weight: 600;
+      margin-top: 20px;
+      color: #000;
+    }
+
+    /* Card Container */
+    .card-container {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 15px;
+      margin-top: 30px;
+    }
+
+    /* Individual Card */
+    .card {
+      width: 200px;
+      height: 200px;
+      background-color: #fff;
+      border-radius: 10px;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      transition: transform 0.3s ease;
+      cursor: pointer;
+    }
+
+    .card:hover {
+      transform: scale(1.05);
+    }
+
+    .card a {
+      text-decoration: none;
+      font-size: 1.2rem;
+      font-weight: 600;
+      color: #333;
+    }
+
+    /* Responsive Design */
+    @media (max-width: 768px) {
+
+      .logo {
+        font-size: 1.7rem;
+      }
+
+      .company-name {
+        font-size: 1.2rem;
+      }
+
+      .card {
+        width: 200px;
+        height: 200px;
+      }
+
+      .card a {
+        font-size: 1rem;
+      }
+    }
+
+    @media (max-width: 480px) {
+      .logo {
+        font-size: 1.7rem;
+      }
+
+      .company-name {
+        font-size: 1rem;
+      }
+
+      .card {
+        width: 120px;
+        height: 120px;
+      }
+
+      .card a {
+        font-size: 0.9rem;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <div class="header">
+    <div class="logo">
+        <img src="logo.svg" alt="" style="height: 90px;">
+    </div>
+    <h1>Daily Record Process</h1>
+  </div>
+
+  <div class="card-container">
+    <div class="card"><a href="form7.html">Field Selection</a></div>
+    <div class="card"><a href="form6.html">Daily Rates</a></div>
+    <div class="card"><a href="form4.html">Harvesting</a></div>
+    <div class="card"><a href="form3.html">Rejection</a></div>
+    <div class="card"><a href="form2.html">Local Transport</a></div>
+    <div class="card"><a href="form1.html">Front End</a></div>
+    <div class="card"><a href="form5.html">Godwon Matrieal</a></div>
+  </div>
+
+</body>
+</html>
